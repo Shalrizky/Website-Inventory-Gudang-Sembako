@@ -1,0 +1,18 @@
+.btnPenerimaanDetail, .btnRetur {
+   border: none;
+   border-radius: 10px;
+   background-color: #1f3bb3;
+   color: #fff;
+   padding: 8px;
+   width: 100px;
+}
+.btnPenerimaanDetail:hover, .btnRetur:hover {
+   background-color: #677cd7;
+   color: #fff;
+}
+.btnRetur:disabled {
+   background-color: #677cd7; /* Warna abu-abu */
+   color: #404040; /* Warna teks sesuai kebutuhan */
+   font-weight: 600;
+}
+
